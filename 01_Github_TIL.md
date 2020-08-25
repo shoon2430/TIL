@@ -113,6 +113,8 @@ $ git commit -m "add README.md"
 $ git push origin master
 ```
 
+![Git Staging Area: Explained Like I'm Five - DEV](https://res.cloudinary.com/practicaldev/image/fetch/s--D7nJOADN--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://cl.ly/569e7f0bbfaf/download/Image%25202018-08-29%2520at%25208.26.35%2520PM.png)
+
 
 
 ## 4. 추가 학습 내용 관리

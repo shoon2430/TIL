@@ -9,8 +9,8 @@
 
 ## 📁 Folder
 
-    - [📁git](https://github.com/shoon2430/TIL/tree/master/git)
-    - [📁DB](https://github.com/shoon2430/TIL/tree/master/DB)
-    - [📁java](https://github.com/shoon2430/TIL/tree/master/java)
-    - [📁javaScirpt](https://github.com/shoon2430/TIL/tree/master/javaScirpt)
-    - [📁python](https://github.com/shoon2430/TIL/tree/master/python)
+- [📁git](https://github.com/shoon2430/TIL/tree/master/git)
+- [📁DB](https://github.com/shoon2430/TIL/tree/master/DB)
+- [📁java](https://github.com/shoon2430/TIL/tree/master/java)
+- [📁javaScirpt](https://github.com/shoon2430/TIL/tree/master/javaScirpt)
+- [📁python](https://github.com/shoon2430/TIL/tree/master/python)

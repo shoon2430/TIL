@@ -1,4 +1,4 @@
-# 스프링 DI(dependency injection)
+# DI(dependency injection)
 
 ## DI 란 무엇인가?
 

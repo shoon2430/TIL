@@ -56,7 +56,7 @@ public void createEvent() {
 
 > 이렇게 수정을 할 경우에는 시간을 구할 수는 있지만, 기존의 소스코드를 수정해야하는점이 있다. 기존의 코드를 변경하지않고 실행시간을 구하기위해 **프록시 패턴**을이용해보자
 
-![프록시 패턴](C:\Users\jeongseunghoon\Desktop\프록시.png)
+![프록시 패턴](/images/java/proxy_pattren.png)
 
 ```java
 package hello.hellospring.aop;

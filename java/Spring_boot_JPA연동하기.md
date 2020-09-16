@@ -238,20 +238,20 @@ public class StudentController {
 
 ### POST /api/v1/students
 
-<img src=/images/spring/spring_boot_jpa_post.png align="left">
+![spring_boot_jpa_post](/images/spring/spring_boot_jpa_post.png)
 
 ### GET /api/v1/students
 
-<img src=/images/spring/spring_boot_jpa_get.png align="left">
+![spring_boot_jpa_post](/images/spring/spring_boot_jpa_get.png)
 
 ### GET /api/v1/students/{id}
 
-<img src=/images/spring/spring_boot_jpa_get_detail.png align="left">
+![spring_boot_jpa_post](/images/spring/spring_boot_jpa_get_detail.png)
 
 ### PUT /api/v1/students/{id}
 
-<img src=/images/spring/spring_boot_jpa_put.png align="left">
+![spring_boot_jpa_post](/images/spring/spring_boot_jpa_put.png)
 
 ### DELTE /api/v1/students/{id}
 
-<img src=C:\Users\jeongseunghoon\Desktop\delete.png align="left">
+![spring_boot_jpa_post](/images/spring/spring_boot_jpa_delete.png)

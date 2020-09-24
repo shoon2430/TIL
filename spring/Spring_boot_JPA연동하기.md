@@ -31,6 +31,7 @@
 #### 2\$ application.properties에 DB관련 설정을 추가한다.
 
 ```java
+# application.properties
 #/myJpaExampleProject/src/main/resources/application.properties
 # tomcat 포트 수정
 server.port=8088
@@ -48,6 +49,23 @@ spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
 
 # MySQL 상세 지정
 spring.jpa.database-platform=org.hibernate.dialect.MySQL5InnoDBDialect
+```
+
+```java
+# application.yml
+server:
+  port: 9000
+  
+spring: 
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/spring_db?useUnicode=true&charaterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: spring
+    password: spring
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: create
 ```
 
 #### 3\$ DB연결 확인

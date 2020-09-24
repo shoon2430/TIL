@@ -15,5 +15,6 @@
 - [📁DB](https://github.com/shoon2430/TIL/tree/master/DB)
 - [📁java](https://github.com/shoon2430/TIL/tree/master/java)
 - [📁spring](https://github.com/shoon2430/TIL/tree/master/spring)
-- [📁javaScirpt](https://github.com/shoon2430/TIL/tree/master/javaScirpt)
+- [📁javaScirpt](https://github.com/shoon2430/TIL/tree/master/javaScript)
+- [📁react](https://github.com/shoon2430/TIL/tree/master/react)
 - [📁python](https://github.com/shoon2430/TIL/tree/master/python)

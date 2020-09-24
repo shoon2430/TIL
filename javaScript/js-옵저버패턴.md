@@ -21,7 +21,7 @@ category: JS
 
 그리고 각각의 옵저버들은 관찰 대상인 객체가 발생시키는 이벤트를 받아 처리한다.
 
-![디자인패턴:옵저버패턴(Observer Pattern) – friday's blog](https://lh3.googleusercontent.com/proxy/MQ7Hpe9WD7n0Z1xZwrw33qOofVRkCeilGtO72BRDVHEwi5lxW9QTTZHG2IfUe4vMynIz-0WbgwPnl3pYevA3Q80HYUVKWgG6OzlHcLlb2escHITHsGk39vgCvFOJzA)
+![디자인패턴:옵저버패턴(Observer Pattern)](/images/javascript/옵저버패턴.png)
 
 위 그림에서와 같이 Subject에서 이벤트가 발생하면 가각의 옵저버들은 관찰 대상인 객체가 발생시키는 이벤트를 받아 처리할 수 있다.
 

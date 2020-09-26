@@ -4,7 +4,7 @@
 
 우리가 만들게될 Book관리 페이지는 다음과 같다.
 
-![최종화면](C:\Users\jeongseunghoon\Desktop\react\최종화면.png)
+![최종화면](/images/project/react_spring/part2/최종화면.png)
 
 ### 1. 먼저 mobx를 사용하기 때문에 BookStore를 만들어 관리할 수 있도록 한다.
 

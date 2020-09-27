@@ -88,6 +88,8 @@ eject된 package.json의 **babel** 부분에서 플러그인을 추가한다.
 
 ## 3. 프로젝트 전체 폴더 구조
 
+[프로젝트 링크](https://github.com/shoon2430/Book-Front)
+
 ```
 git clone https://github.com/shoon2430/Book-Front.git
 ```

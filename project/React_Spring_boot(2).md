@@ -127,7 +127,7 @@ class BookListView extends Component {
   render() {
     const { books, onSelect } = this.props;
     const bookList = books.map((book) => {
-      return <BookItemView book={book} onSelect={onSelect} />;
+      return <BookItemView key={book.isbn} book={book} onSelect={onSelect} />;
     });
 
     return bookList;

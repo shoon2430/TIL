@@ -6,15 +6,13 @@
 
 react에서는 상태관리를 위해 mobx를 사용하고, 데이터를 저장하기위해서 DB는 mariaDB를 사용한다.
 
-## 1 . React
-
-### #1리액트 프로젝트 생성
+## 1. 리액트 프로젝트 생성
 
 ```bash
 yarn create react-app book-front
 ```
 
-### #2 라이브러리 설치
+## 2. 라이브러리 설치
 
 사용할 라이브러리
 
@@ -29,13 +27,13 @@ yarn create react-app book-front
 
    `axios`
 
-#### 2_1. 라이브러리 설치
+### 2-1. 라이브러리 설치
 
 ```bash
 yarn add semantic-ui-react semantic-ui-css mobx mobx-react axios
 ```
 
-#### 2_2. mobx의 어노테이션을 사용하기위해 babel 플러그인을 추가해준다.
+### 2-2. mobx의 어노테이션을 사용하기위해 babel 플러그인을 추가해준다.
 
 플러그인을 추가하기위해 yarn eject를 이용한다.
 
@@ -88,7 +86,7 @@ eject된 package.json의 **babel** 부분에서 플러그인을 추가한다.
 
 > **@babel/plugin-proposal-decorators**와 **@babel/plugin-proposal-class-properties** 이부분이 추가
 
-### #3 프로젝트 전체 폴더 구조
+## 3. 프로젝트 전체 폴더 구조
 
 ```
 git clone https://github.com/shoon2430/Book-Front.git
@@ -108,7 +106,7 @@ git clone https://github.com/shoon2430/Book-Front.git
     - :file_folder: view
     - :file_folder: data​
 
-#### 폴더구조 설명
+### 폴더구조 설명
 
 > :file_folder: **api** : Spring Boot 서버로 요청하는 부분
 >

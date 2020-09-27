@@ -1,4 +1,4 @@
-# sReact + Spring boot(2)
+# React + Spring boot(2)
 
 지난번 환경세팅에 이어서 book을 관리하는 페이지구현을 시작해보자
 

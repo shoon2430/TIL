@@ -6,9 +6,9 @@
 
 ![최종화면](/images/project/react_spring/part2/최종화면.png)
 
-### 1. 먼저 mobx를 사용하기 때문에 BookStore를 만들어 관리할 수 있도록 한다.
+## 1. 먼저 mobx를 사용하기 때문에 BookStore를 만들어 관리할 수 있도록 한다.
 
-##### src/book/store/BookStore.js
+#### src/book/store/BookStore.js
 
 ```javascript
 import { observable, computed, action } from "mobx";
@@ -54,9 +54,9 @@ export default new BookStore();
 
 [Mobx관련 참고 블로그](https://velog.io/@velopert/begin-mobx)
 
-### 2. Provider 로 프로젝트에 BookStore 적용
+## 2. Provider 로 프로젝트에 BookStore 적용
 
-##### src/index.js
+#### src/index.js
 
 ```javascript
 import React from "react";
@@ -82,13 +82,13 @@ ReactDOM.render(
 serviceWorker.unregister();
 ```
 
-### 3. 등록되어있는 bookList를 조회할 수 있도록 추가
+## 3. 등록되어있는 bookList를 조회할 수 있도록 추가
 
 ![mockup_1](/images/project/react_spring/part2/mockup_1.png)
 
 왼쪽에는 등록되어있는 Book리스트를 보여주기 때문에, BookList에 대한 로직을 구현할 **BookListContainer**와 리스트자체를 보여주는 **BookListView**, 각 아이템을 나타내는 **BookItemView**를 구현한다.
 
-##### src/book/container/BookListContainer.js
+#### src/book/container/BookListContainer.js
 
 ```javascript
 import React, { Component } from "react";
@@ -117,7 +117,7 @@ export default BookListContainer;
 >
 > **BookListContainer**에서는 book선택 시 우측화면에 해당정보를 자세하게 보여줄 수 있도록하는 **onSelect**함수를 구현하고, 현재 스토어에 등록되어있는 book데이터와 onSelect함수를 **BookListView** 에 props로 보내줍니다.
 
-##### src/book/view/BookListView.js
+#### src/book/view/BookListView.js
 
 ```javascript
 import React, { Component } from "react";
@@ -138,7 +138,7 @@ export default BookListView;
 
 > **BookListContainer**에서 받은 books를 이용하여 book데이터마다 **BookItemView**를 만들어줍니다.
 
-##### src/book/view/BookItemView.js
+#### src/book/view/BookItemView.js
 
 ```javascript
 import React, { Component } from "react";
@@ -176,13 +176,13 @@ export default BookItemView;
 
 > **BookListView**에서 받은 book의 정보와 onSelect함수를 적용하여 하나의 bookItem을 만들어줍니다.
 
-### 4. 선택한 book의 자세한 정보를 보여줄 수 있도록 추가
+## 4. 선택한 book의 자세한 정보를 보여줄 수 있도록 추가
 
 ![mockup_2](/images/project/react_spring/part2/mockup_2.png)
 
 오른쪽에는 선택된 Book의 자세한 정보를 보여주기 위해, Store에서 데이터를 불러오는 **BookDetailsContainer**와 데이터를 이용하여 보여질 화면인 **BookDetailsView**을 구현한다.
 
-##### src/book/container/BookDetailsContainer.js
+#### src/book/container/BookDetailsContainer.js
 
 ```javascript
 import React, { Component } from "react";
@@ -202,7 +202,7 @@ export default BookDetailsContainer;
 
 > **BookDetailsContainer**는 선택되어져 있는 book정보를 Store에서 가지고와서 **BookDetailsView**에 props로 정보를 넘겨줍니다.
 
-##### src/book/view/BookDetailsView.js
+#### src/book/view/BookDetailsView.js
 
 ```javascript
 import React, { Component } from "react";
@@ -236,11 +236,11 @@ export default BookDetailsView;
 
 > **BookDetailsContainer**에서 받은 book정보를 이용하여 book의 자세한 정보를 보여주는 카드를 만들어 줍니다.
 
-### 5. 마지막으로 우리가 만든 것들을 App.js에 넣어줍니다.
+## 5. 마지막으로 우리가 만든 것들을 App.js에 넣어줍니다.
 
 먼저 두개의 container를 한 화면에서 보여지도록 모아줍니다.
 
-##### src/book/view/menu/BookMain.js
+#### src/book/view/menu/BookMain.js
 
 ```javascript
 import React from "react";
@@ -268,7 +268,7 @@ export default BookMain;
 
 > 시멘틱UI를 이용하여 화면을 2개로 나눈뒤 왼쪽에는 **BookListContainer**를 오른쪽에는 **BookDetailsContainer**를 넣어줍니다.
 
-##### src/App.js
+#### src/App.js
 
 ```javascript
 import React from "react";

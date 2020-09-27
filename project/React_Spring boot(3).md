@@ -201,7 +201,7 @@ public interface BookService {
 >
 > **DuplicateException** : Exception을 상속받아 만든 우리만의 Exception입니다. (지금은 작성하지 않아도 됩니다. 이후에 작성하도록 하겠습니다.)
 
-## 5-3. Service 구현체 생성
+### 5-3. Service 구현체 생성
 
 위에서 우리가 정의한 service Interface를 구현하는 클래스 입니다.
 

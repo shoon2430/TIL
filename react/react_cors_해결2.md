@@ -58,3 +58,4 @@ module.exports = function (app) {
 };
 ```
 
+> 다음과 같이 설치한 라이브러리를 이용하여 cors에러가 나는 각 서버에 맞는 proxy를 등록하여 문제를 해결할 수 있다.

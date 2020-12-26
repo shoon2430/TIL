@@ -20,5 +20,4 @@
 - [📁react](https://github.com/shoon2430/TIL/tree/master/react)
 - [📁python](https://github.com/shoon2430/TIL/tree/master/python)
 - [📁docker](https://github.com/shoon2430/TIL/tree/master/docker)
-
-* :file_folder: [cloud](https://github.com/shoon2430/TIL/tree/master/cloud)
+- [📁cloud]](https://github.com/shoon2430/TIL/tree/master/cloud)

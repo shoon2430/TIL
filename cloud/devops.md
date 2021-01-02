@@ -45,3 +45,9 @@
 #### 데브옵스란 
 
 > 어떤 요구사항을 효율적으로 만족시키키 위하여, 일을 자동화하며 변경사항 지표들을 측정하고, 공유하고, 이 모든 결과물들을 지속적으로 축적해 나아가는 문화를 만들어가는 철학 방법론 기술
+
+---
+참고자료
+https://wnsgml972.github.io/devops/2019/02/19/devops/
+https://brunch.co.kr/@jowlee/114
+https://www.youtube.com/watch?v=OL_DqAiC57I

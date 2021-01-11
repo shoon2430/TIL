@@ -9,7 +9,7 @@
 docker run -it nginx
 ```
 
-![1_1](C:\Users\seunghoon.jeong\Desktop\img\1_1.png)
+![1_1](https://github.com/shoon2430/TIL/blob/master/images/docker/1_1.png)
 
 
 
@@ -18,7 +18,7 @@ docker run -it nginx
 docker run -it -p 8080:80 nginx
 ```
 
-![1_2](C:\Users\seunghoon.jeong\Desktop\img\1_2.png)
+![1_2](https://github.com/shoon2430/TIL/blob/master/images/docker/1_2.png)
 
 
 
@@ -30,7 +30,7 @@ docker run -it -p 8080:80 --rm nginx
 docker run -it -p 8080:80 --rm -v $(pwd):/usr/share/nginx/html/ nginx
 ```
 
-![1_3](C:\Users\seunghoon.jeong\Desktop\img\1_3.png)
+![1_3](https://github.com/shoon2430/TIL/blob/master/images/docker/1_3.png)
 
 
 
@@ -62,7 +62,7 @@ docker run --rm -d --name postgres \
 
 
 
-![2_1](C:\Users\seunghoon.jeong\Desktop\img\2_1.png)
+![2_1](https://github.com/shoon2430/TIL/blob/master/images/docker/2_1.png)
 
 다음과 같은 예시로 Django컨테이너를 먼저 띄울 경우 DB가 존재하지않아 실행시 에러가 발생한다.
 
@@ -83,7 +83,7 @@ docker run -d --rm \
   django-sample
 ```
 
-![2_2](C:\Users\seunghoon.jeong\Desktop\img\2_2.png)
+![2_2](https://github.com/shoon2430/TIL/blob/master/images/docker/2_2.png)
 
 
 
@@ -120,7 +120,7 @@ docker run -d --rm --name django1 \
   django-sample
 ```
 
-![3_1](C:\Users\seunghoon.jeong\Desktop\img\3_1.png)
+![3_1](https://github.com/shoon2430/TIL/blob/master/images/docker/3_1.png)
 
 
 
@@ -133,7 +133,7 @@ docker run -d --rm --name django2 \
   django-sample
 ```
 
-![3_2](C:\Users\seunghoon.jeong\Desktop\img\3_2.png)
+![3_2](https://github.com/shoon2430/TIL/blob/master/images/docker/3_2.png)
 
 
 
@@ -151,7 +151,7 @@ docker network create --driver bridge web-service
 docker network ls
 ```
 
-![3_3](C:\Users\seunghoon.jeong\Desktop\img\3_3.png)
+![3_3](https://github.com/shoon2430/TIL/blob/master/images/docker/3_3.png)
 
 
 
@@ -178,7 +178,7 @@ docker run -d --rm --name django2 \
   django-sample
 ```
 
-![3_4](C:\Users\seunghoon.jeong\Desktop\img\3_4.png)
+![3_4](https://github.com/shoon2430/TIL/blob/master/images/docker/3_4.png)
 
 > - docker의 네트워크 모드 종류
 >   - bridge: 해당 네트워크 안에서만 통신 가능
@@ -251,7 +251,7 @@ services:
       - 8000:8000
 ```
 
-![4_1](C:\Users\seunghoon.jeong\Desktop\img\4_1.png)
+![4_1](https://github.com/shoon2430/TIL/blob/master/images/docker/4_1.png)
 
 
 
